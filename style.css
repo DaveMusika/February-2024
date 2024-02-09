@@ -1,0 +1,47 @@
+body {
+    background-color:rgb(0, 58, 58);
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+.container {
+    background-color: rgb(221, 234, 234);
+    align-items: center;
+    justify-content: center;
+    border-color: white;
+    margin-top: 10%;
+    border-radius: 8px;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: left;
+    background-color: red;
+    margin-top: 0;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+table, th, tr, td {
+border-collapse: collapse;
+padding: 12px;
+text-align: center;
+}
+
+tr th:nth-child(1) {
+    color: red;
+    font-weight: bolder;
+}
+tr td:nth-child(1) {
+    color: red;
+    font-weight: bolder;
+}
+
+td:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(1, 58, 58);
+}
+
